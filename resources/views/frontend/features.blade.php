@@ -16,7 +16,7 @@
         </div>
         <div class="col-lg-6">
             <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden">
-                <img class="img-fluid" src="img/houses.jpeg" style="width: 30%;">
+                <img class="img-fluid" src="img/house.JPG" style="width: 30%;height: 170px !important;">
                 <br>
                 <div class="pl-3" style="margin-top:1% !important;height: 165px !important;">
                     <h5 class="">House System</h5>
@@ -32,7 +32,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden">
-                <img class="img-fluid" src="img/clubs.jpeg" style="width: 30%;">
+                <img class="img-fluid" src="img/clubs.JPG" style="width: 30%;">
                 <br>
                 <div class="pl-3" style="margin-top:1% !important;">
                     <h5 class="">Clubs &amp; Associations</h5>
@@ -60,7 +60,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden">
-                <img class="img-fluid" src="img/pta.jpeg" style="width: 30%;">
+                <img class="img-fluid" src="img/pta.JPG" style="width: 30%;height:100%;">
                 <br>
                 <div class="pl-3" style="margin-top:1% !important;">
                     <h5 class="">Parent-Teacher Association (PTA)</h5>
@@ -73,7 +73,7 @@
         </div>
         <div class="col-lg-6">
             <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden">
-                <img class="img-fluid" src="img/alumni.jpeg" style="width: 30%;">
+                <img class="img-fluid" src="img/alumni.JPG" style="width: 30%;">
                 <br>
                 <div class="pl-3" style="margin-top:1% !important;">
                     <h5 class="">Alumni Association</h5>
@@ -88,7 +88,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden">
-                <img class="img-fluid" src="img/mock.jpeg" style="width: 30%;">
+                <img class="img-fluid" src="img/mock.jpg" style="width: 30%;">
                 <br>
                 <div class="pl-3" style="margin-top:1% !important;">
                     <h5 class="">Mock Parliament</h5>
@@ -100,7 +100,7 @@
         </div>
         <div class="col-lg-6">
             <div class="d-flex align-items-center bg-light shadow-sm rounded overflow-hidden">
-                <img class="img-fluid" src="img/flat.jpeg" style="width: 30%;">
+                <img class="img-fluid" src="img/flat.JPG" style="width: 30%;">
                 <br>
                 <div class="pl-3" style="margin-top:1% !important;">
                     <h5 class="">Flat Panel Learning</h5>

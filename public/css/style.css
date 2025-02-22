@@ -9924,3 +9924,6 @@ img.img-fluid.w-100 {
   width: 400px !important;
   height: 270px !important;
 }
+.lb-data .lb-close {
+  margin-top: -80% !important;
+  margin-right: -5%;
