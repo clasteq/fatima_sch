@@ -5,6 +5,10 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ html {
+  scroll-behavior: smooth !important;
+}
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -56,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: #666666;
@@ -6121,8 +6125,9 @@ a.close.disabled {
   width: 100%;
   margin-right: -100%;
   backface-visibility: hidden;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 2s ease, opacity .5s ease-out;
 }
+
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -9867,11 +9872,55 @@ a.text-dark:hover, a.text-dark:focus {
 
 /*--------------*/
 
-h4,
-.h4 {
-    font-size: calc(2rem + 0.3vw) !important;
-}
 
 .test-height {
-    height: 300px !important;
+    height: 350px !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px !important;
+  width: 100px !important;
+  outline: black !important;
+  background-size: 100%, 100% !important;
+  border-radius: 50% !important;
+  background-image: none !important;
+}
+/*
+.carousel-control-next-icon:after
+{
+  content: '>' !important;
+  font-size: 40px !important;
+  color: var(--cyan) !important;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<' !important;
+  font-size: 40px !important;
+  color: var(--cyan) !important;
+} */
+ 
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: var(--cyan);
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6sease;
+}
+
+.test_same_height {
+  height: 210px !important;
+}
+
+img.img-fluid.w-100 {
+  width: 400px !important;
+  height: 270px !important;
 }
