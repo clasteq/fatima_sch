@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5">
-                <img class="img-fluid rounded mb-5 mb-lg-0" src="img/about.jpeg" alt="">
+                <img class="img-fluid rounded mb-5 mb-lg-0" src="img/about.png" alt="">
             </div>
             <div class="col-lg-7">
                 <p class="section-title pr-5"><span class="pr-2">Learn About Us</span></p>
@@ -17,18 +17,15 @@
                     proficiency
                     and intellectual growth.</p>
                 <div class="row pt-2 pb-4">
-                    <div class="col-6 col-md-4">
-                        <img class="img-fluid rounded" src="img/robot.jpeg" alt="">
-                    </div>
-                    <div class="col-6 col-md-8">
+                    <div class="col-6 col-md-10">
                         <ul class="list-inline m-0">
-                            <li class="py-2 border-top border-bottom"><i
+                            <li class="py-2 border-top border-bottom mb-12"><i
                                     class="fa fa-check text-primary mr-3"></i>Student-centered approach</li>
-                            <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Well-equipped
+                            <li class="py-2 border-bottom mb-12"><i class="fa fa-check text-primary mr-3"></i>Well-equipped
                                 facilities and
                                 dedicated
                                 faculties</li>
-                            <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Excel in
+                            <li class="py-2 border-bottom mb-12"><i class="fa fa-check text-primary mr-3"></i>Excel in
                                 academics, leadership and service to society</li>
                         </ul>
                     </div>

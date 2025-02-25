@@ -33,22 +33,24 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-light position-relative shadow">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+    <div class="container-fluid nav-bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg nav-bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
             <a href="" class="navbar-brand font-weight-bold text-secondary">
-                <img src="img/logo.png" alt="Bootstrap" width="400px" height="100%">
+                <source media="(min-width:650px)" srcset="img/logo.png" alt="Logo">
+                <source media="(min-width:465px)" srcset="img/small.png" alt="Logo">
+                <img src="img/logo.png" alt="Flowers" style="width:auto;">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
-                    <a href="#aboutus" class="nav-item nav-link" style="font-size:1.1rem;">ABOUT US</a>
-                    <a href="#principal_msg" class="nav-item nav-link" style="font-size:1.1rem;">PRINCIPAL'S MESSAGE</a>
-                    <a href="#curriculum" class="nav-item nav-link" style="font-size:1.1rem;">CURRICULUM</a>
-                    <a href="#features" class="nav-item nav-link" style="font-size:1.1rem;">FEATURES</a>
-                    <a href="#gallery" class="nav-item nav-link" style="font-size:1.1rem;">GALLERY</a>
-                    <a href="#contactus" class="nav-item nav-link" style="font-size:1.1rem;">CONTACT US</a>
+                    <a href="#aboutus" class="nav-item nav-link" style="font-size:1rem;">ABOUT US</a>
+                    <a href="#principal_msg" class="nav-item nav-link" style="font-size:1rem;">PRINCIPAL'S MESSAGE</a>
+                    <!--<a href="#curriculum" class="nav-item nav-link" style="font-size:1.1rem;">CURRICULUM</a> -->
+                    <a href="#features" class="nav-item nav-link" style="font-size:1rem;">FEATURES</a>
+                    <a href="#gallery" class="nav-item nav-link" style="font-size:1rem;">GALLERY</a>
+                    <a href="#contactus" class="nav-item nav-link" style="font-size:1rem;">CONTACT US</a>
                 </div>
                 <a href="#admission" class="btn btn-primary px-4">ADMISSION</a>
             </div>

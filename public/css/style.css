@@ -9515,7 +9515,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-bold {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 
 .font-weight-bolder {
@@ -9927,3 +9927,8 @@ img.img-fluid.w-100 {
 .lb-data .lb-close {
   margin-top: -80% !important;
   margin-right: -5%;
+}
+
+.nav-bg-light {
+  background-color:  #e6f2ff !important;
+}
