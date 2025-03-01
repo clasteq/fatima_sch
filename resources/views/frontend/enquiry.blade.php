@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 mb-5 mb-lg-0">
-                <p class="section-title pr-5"><span class="pr-2">Book A Seat</span></p>
-                <h1 class="mb-4">Book A Seat For Your Kid</h1>
-                <p>Need Content</p>
+                <p class="section-title pr-5"><span class="pr-2">Book A Seat/Drop your enquiry</span></p>
+                <!--<h1 class="mb-4">Book A Seat For Your Kid</h1> -->
+                <p>For admissions, job vacancies, or any inquiries, just drop us a message—we’ll get in touch with you!</p>
             </div>
             <div class="col-lg-5">
                 <div class="card border-0">
@@ -83,7 +83,7 @@
                             <div>
                                 <button class="btn btn-secondary btn-block border-0 py-3" type="submit">Send
                                     your
-                                    enquiry</button>
+                                    Enquiry</button>
                             </div>
                         </form>
                     </div>

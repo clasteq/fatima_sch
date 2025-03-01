@@ -61,7 +61,7 @@
             Reserved.
             Designed
             by
-            <a class="text-primary font-weight-bold" href="https://clasteq.com">Clasteq</a>
+            <a class="text-primary font-weight-bold" href="#">Clasteq</a>
         </p>
     </div>
 </div>
