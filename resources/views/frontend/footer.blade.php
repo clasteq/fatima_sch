@@ -8,13 +8,9 @@
 
             <div class="d-flex justify-content-start mt-4">
                 <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                    style="width: 48px; height: 48px;" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    style="width: 50px; height: 50px;" href="https://youtube.com/@fatimavdm1925?si=CuqyxmuI3WRdSI9G" target="_blank"><i class="fab fa-brands fa-youtube fa-2x"></i></a>
                 <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                    style="width: 50px; height: 50px;" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-                <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                    style="width: 50px; height: 50px;" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                    style="width: 50px; height: 50px;" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                    style="width: 50px; height: 50px;" href="https://www.instagram.com/fatimaschoolvdm?igsh=MTRmc2t3a2dsejUzdw=="  target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-5">
@@ -30,7 +26,7 @@
                 <h4 class="fa fa-envelope text-primary"></h4>
                 <div class="pl-3">
                     <h5 class="text-white">Email</h5>
-                    <p>info@example.com</p>
+                    <p>vdm.fatima@yahoo.com </p>
                 </div>
             </div>
             <div class="d-flex">

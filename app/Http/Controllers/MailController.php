@@ -11,11 +11,11 @@ class MailController extends Controller
 {
     function sendEmail(Request $request)
     {
-        $to = "priyavignesh1412@gmail.com";
+        $to = "vdm.fatima@yahoo.com";
         $msg = $request->message;
         $subject = $request->subject;
         Mail::to($to)->send(new ContactFormMail($msg, $subject));
-        //Mail::to('priyavignesh1412@gmail.com')->send(new ContactFormMail(($msg, $subject)));
+        //Mail::to('vdm.fatima@yahoo.com')->send(new ContactFormMail(($msg, $subject)));
         return "send email";
     }
     public function index()
@@ -24,14 +24,14 @@ class MailController extends Controller
             'title' => 'Mail from Website',
             'body' => 'This is for testing'
         ];
-        Mail::to('priyavignesh1412@gmail.com')->send(new DemoMail(($mailData)));
+        Mail::to('vdm.fatima@yahoo.com')->send(new DemoMail(($mailData)));
         return redirect()->back()->with('success', 'Your enquiry has been submitted to the corresponding team.');
 
     }
 
     function form_index(Request $request)
     {
-        $to = "priyavignesh1412@gmail.com";
+        $to = "vdm.fatima@yahoo.com";
         $name = $request->name;
         $email = $request->email;
         $phone_number = $request->phone_number;
@@ -54,7 +54,7 @@ class MailController extends Controller
     }
     function general_index(Request $request)
     {
-        $to = "priyavignesh1412@gmail.com";
+        $to = "vdm.fatima@yahoo.com";
         $name = $request->name;
         $phone_number = $request->phone_number;
         $email = $request->email;

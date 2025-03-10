@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 mb-5 mb-lg-0">
-                <p class="section-title pr-5"><span class="pr-2">Book A Seat/Drop your enquiry</span></p>
+                <p class="section-title pr-5"><span class="pr-2">Book A Seat / Drop your enquiry</span></p>
                 <!--<h1 class="mb-4">Book A Seat For Your Kid</h1> -->
                 <p>For admissions, job vacancies, or any inquiries, just drop us a message—we’ll get in touch with you!</p>
             </div>
