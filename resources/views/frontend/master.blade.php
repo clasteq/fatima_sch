@@ -36,9 +36,7 @@
     <div class="container-fluid nav-bg-light position-relative shadow">
         <nav class="navbar navbar-expand-lg nav-bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
             <a href="" class="navbar-brand font-weight-bold text-secondary">
-                <source media="(min-width:650px)" srcset="img/logo.png" alt="Logo">
-                <source media="(min-width:465px)" srcset="img/small.png" alt="Logo">
-                <img src="img/logo.png" alt="Flowers" style="width:auto;">
+                <img src="img/logo.png" alt="Flowers" style="width:auto;" class="img-fluid">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
