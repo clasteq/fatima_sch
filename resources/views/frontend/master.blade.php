@@ -43,12 +43,12 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
-                    <a href="#aboutus" class="nav-item nav-link" style="font-size:1rem;">ABOUT US</a>
-                    <a href="#principal_msg" class="nav-item nav-link" style="font-size:1rem;">PRINCIPAL'S MESSAGE</a>
+                    <a href="#aboutus" class="nav-item nav-link" style="font-size:0.9rem;">ABOUT US</a>
+                    <a href="#principal_msg" class="nav-item nav-link" style="font-size:0.9rem;">PRINCIPAL'S MESSAGE</a>
                     <!--<a href="#curriculum" class="nav-item nav-link" style="font-size:1.1rem;">CURRICULUM</a> -->
-                    <a href="#features" class="nav-item nav-link" style="font-size:1rem;">FEATURES</a>
-                    <a href="#gallery" class="nav-item nav-link" style="font-size:1rem;">GALLERY</a>
-                    <a href="#contactus" class="nav-item nav-link" style="font-size:1rem;">CONTACT US</a>
+                    <a href="#features" class="nav-item nav-link" style="font-size:0.9rem;">FEATURES</a>
+                    <a href="#gallery" class="nav-item nav-link" style="font-size:0.9rem;">GALLERY</a>
+                    <a href="#contactus" class="nav-item nav-link" style="font-size:0.9rem;">CONTACT US</a>
                 </div>
                 <a href="#admission" class="btn btn-primary px-4">ADMISSION</a>
             </div>
