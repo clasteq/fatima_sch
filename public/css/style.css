@@ -9932,3 +9932,10 @@ img.img-fluid.w-100 {
 .nav-bg-light {
   background-color:  #e6f2ff !important;
 }
+
+@media (min-width: 992px) {
+  .adm-image {
+    width: 1000px !important;
+    height: 500px !important;
+  }
+}

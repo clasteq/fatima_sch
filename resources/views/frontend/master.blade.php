@@ -54,6 +54,17 @@
             </div>
         </nav>
     </div>
+
+    <div id="admissionBanner" class="modal fade rounded" style="">
+        <div class="modal-dialog modal-xl">
+            <div class="" style="margin-top: 8% !important;">
+                <center>
+                    <img src="img/6.png?auto=yes&bg=777&fg=555&text=First slide" alt="Admission Banner"
+                        style="" class="img-fluid adm-image rounded">
+                </center>
+            </div>
+        </div>
+    </div>
     <!-- Navbar End -->
 
     @session('success')
@@ -119,7 +130,7 @@
 
 
     <!-- Features -->
-    @include('frontend.features')   
+    @include('frontend.features')
     <!-- End of Features -->
 
     <!-- Gallery -->
@@ -184,6 +195,13 @@
         $(".alert").alert('close');
     }, 5000);
 });
+
+    $(document).ready(function(){
+		$("#admissionBanner").modal('show');
+        setTimeout(function() {
+        $("#admissionBanner").modal('hide');
+    }, 5000);
+	});
     </script>
 
 
